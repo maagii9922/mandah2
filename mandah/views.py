@@ -16,6 +16,7 @@ def home(request):
 def login(request):
     return render(request,'login.html')
 
+# class syfs(view):
 def shalgah(request):
     # h=Hereglegch.objects.all()
     # return render(request,'home.html',{'hereglegch':h})
